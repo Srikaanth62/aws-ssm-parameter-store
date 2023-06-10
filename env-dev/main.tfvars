@@ -24,7 +24,8 @@ parameters = [
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.srikaanth62.online" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
   { name = "dev.dispatch.amqp_host", value = "rabbitmq-dev.srikaanth62.online" },
-  { name = "dev.dispatch.amqp_user", value = "roboshop" }
+  { name = "dev.dispatch.amqp_user", value = "roboshop" },
+  { name = "dev.docdb.db_user", value = "roboshop" }
 
 
 ]
@@ -32,5 +33,6 @@ parameters = [
 passwords = [
   { name = "dev.shipping.db_pass", value = "RoboShop@1" },
   { name = "dev.payment.amqp_pass", value = "roboshop123" },
-  { name = "dev.dispatch.amqp_pass", value = "roboshop123" }
+  { name = "dev.dispatch.amqp_pass", value = "roboshop123" },
+  { name = "dev.docdb.db_pass", value = "roboshop123456" }
 ]
